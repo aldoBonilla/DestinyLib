@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'DestinyLib_Example' do
+  pod 'Alamofire', '~> 4.8.1'
+  pod 'RealmSwift', '~> 3.13.1'
   pod 'DestinyLib', :path => '../'
 
   target 'DestinyLib_Tests' do

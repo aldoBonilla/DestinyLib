@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DestinyLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DestinyLib.'
+  s.summary          = 'It connects to destiny Api to use it in a simple way'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Connects to destiny API WS, simplifies the login process for developers \n Can get player characters, inventories, weapons, weekly goals. \n Includes models for the responses.'
                        DESC
 
   s.homepage         = 'https://github.com/aldoBonilla/DestinyLib'
@@ -26,9 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aldoBonilla' => 'abonilla@ia.com.mx' }
   s.source           = { :git => 'https://github.com/aldoBonilla/DestinyLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/aldotron69'
 
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'DestinyLib/Classes/**/*'
   
@@ -38,5 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 4.8.1'
+  s.dependency 'RealmSwift', '~> 3.13.1'
+  
 end

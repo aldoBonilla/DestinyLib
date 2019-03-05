@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.8.1)
+  - DestinyLib (0.1.0):
+    - Alamofire (~> 4.8.1)
+    - RealmSwift (~> 3.13.1)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - DestinyLib (from `../`)
+  - RealmSwift (~> 3.13.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  DestinyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  DestinyLib: d5364ae5a15515692f82dd9f6b3e2642360d3353
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+
+PODFILE CHECKSUM: ac35af6a23ec41016972aaa908a9655cac2e48c2
+
+COCOAPODS: 1.5.3
