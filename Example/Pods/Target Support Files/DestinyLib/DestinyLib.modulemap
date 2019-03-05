@@ -1,6 +1,0 @@
-framework module DestinyLib {
-  umbrella header "DestinyLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
