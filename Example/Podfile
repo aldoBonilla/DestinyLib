@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DestinyLib_Example' do
+  pod 'DestinyLib', :path => '../'
+
+  target 'DestinyLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
